@@ -12232,3 +12232,33 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
+
+.achtergrond-paars{
+  background-color: #695aa6;
+  color: #fff;
+}
+
+.home-btn {
+			display: block;
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			padding: 10px;
+			background-color: #333;
+			color: #fff;
+			border-radius: 50%;
+			text-align: center;
+			font-size: 24px;
+			cursor: pointer;
+			transition: background-color 0.3s;
+      min-width: 55px;
+		}
+		
+		.home-btn:hover {
+			background-color: #555;
+		}
+
+.kaarten{
+  max-height: 600px;
+  border: #000 solid 3px;
+}
